@@ -22,6 +22,8 @@ git add commit -m "first commit" --tracks changes under given message "first com
 
 git push origin master --pushes the changes made to the repository from local computer to github site
 
+git pull origin master --getting files from github for local manipulation
+
 
 git status --shows the status of any changes you've made in repository to file
 	in red --files that have not been added to file
@@ -46,6 +48,15 @@ git commit -am "Code that doesn't work" --will add the code and put message of "
 
 git clone git@github.com:undergraduatestudies.......etc. --follow SSH code for link to cloning repository 
 	into local computer. From there you can access files in directory such as 'HelloWorld'
+
+git config color.vi true --set colors in git bash so that text isn't one color.
+	makes it easier to see changes
+
+git mergetool --if there is a merge conflict. tool in which you will see the latest push and local push
+	where merge conflict happened. Should have pulled before a push to get latest code from 
+	remote(github) location
+
+rm <filename> --will remove filename
 
 
 flags:
