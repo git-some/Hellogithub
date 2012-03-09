@@ -1,10 +1,10 @@
 Hello world!
 How are you?
 
-I am making a second change to this file.
-I am going to explain what I have learn thus far:
+GITHUB HELP!
+I am going to explain what I have learned thus far:
 
-Create a repository after downloading and making username:
+Create a repository after downloading git hub and making username:
 Follow directions from website (easy step)
 Make sure to have SSH key added
 Dont forget your passphrase!!
@@ -34,10 +34,18 @@ git reflog --basically same as git log but no author or date
 
 git show --shows lasts updates
 
-git k --GUI interface to track changes of files
+git k --GUI interface to track changes of files, very useful tool for seeing changes,dates, authors etc.
+
+git checkout README --Made a change and have not committed yet, then the file will go back to previous version
+	good tool if you find code that doesn't work
+
+git commit -am "Code that doesn't work" --will add the code and put message of "code that.."
+	will save a step so next step to add to repository is just
+	git push (instead of git push origin master)
 
 
 flags:
 -m --message
 -h --shows options(used with git show or git log)
+-am --add and message of change(allows next step to be simpley git push instead of longer version)
 
