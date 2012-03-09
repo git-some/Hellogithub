@@ -24,8 +24,9 @@ git push origin master --pushes the changes made to the repository from local co
 
 
 git status --shows the status of any changes you've made in repository to file
-	in red --files that have not been committed(saved)
-	in green --files that have been saved and recognized
+	in red --files that have not been added to file
+	in green --files that have been recognized and added
+	commit in order to save
 
 git log --gives history of work done by author and date of work done
 	keeps track of users for large project
