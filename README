@@ -2,3 +2,42 @@ Hello world!
 How are you?
 
 I am making a second change to this file.
+I am going to explain what I have learn thus far:
+
+Create a repository after downloading and making username:
+Follow directions from website (easy step)
+Make sure to have SSH key added
+Dont forget your passphrase!!
+
+Common commands:
+cd --change directory to which you want to work with.
+notepad README --open file named 'README' in notepad to make changes
+	**need to find out how to open other editors 
+
+git add README --adds changes made which are in red to file README and will be green to show
+	changes have been made
+
+git add commit -m "first commit" --tracks changes under given message "first commit" as to understand
+	why certain changes were made or different stages of progress(essentially a label for commit)
+
+git push origin master --pushes the changes made to the repository from local computer to github site
+
+
+git status --shows the status of any changes you've made in repository to file
+	in red --files that have not been committed(saved)
+	in green --files that have been saved and recognized
+
+git log --gives history of work done by author and date of work done
+	keeps track of users for large project
+
+git reflog --basically same as git log but no author or date
+
+git show --shows lasts updates
+
+git k --GUI interface to track changes of files
+
+
+flags:
+-m --message
+-h --shows options(used with git show or git log)
+
