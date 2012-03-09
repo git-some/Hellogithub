@@ -44,6 +44,9 @@ git commit -am "Code that doesn't work" --will add the code and put message of "
 	will save a step so next step to add to repository is just
 	git push (instead of git push origin master)
 
+git clone git@github.com:undergraduatestudies.......etc. --follow SSH code for link to cloning repository 
+	into local computer. From there you can access files in directory such as 'HelloWorld'
+
 
 flags:
 -m --message
