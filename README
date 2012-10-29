@@ -34,6 +34,8 @@ git status --shows the status of any changes you've made in repository to file
 	in green --files that have been recognized and added
 	commit in order to save
 
+testing testing!!!!
+
 git log --gives history of work done by author and date of work done
 	keeps track of users for large project
 
